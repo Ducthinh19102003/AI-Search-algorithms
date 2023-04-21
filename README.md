@@ -1,4 +1,4 @@
-# Basic Search algorithms in Artificial Intelligence
+# **Solving problems by searching**
 
 Here is my implementation of some basic search algorithms in AI, in which we have a planning agent who look ahead and find a sequence of actions that lead to the goal state. The search algorithms can be visualized through the game environment.
 
