@@ -71,9 +71,6 @@ def bird_counting_heuristic(state: State,
 
 bch = bird_counting_heuristic
 
-
-
-
 def every_bird_heuristic(state: State,
                          problem: MultiplePositionSearchProblem) -> float:
     position, yellow_birds = state
@@ -112,13 +109,6 @@ def every_bird_heuristic(state: State,
                         key[vertice] = dist
                     heapq.heappush(heap, (key[vertice], vertice))
         return total_weight
-
-    return MST_weight(agent_loc, goals) 
-
-
-
-
-
-
+    return MST_weight(agent_loc, goals) * 6
 
 every_bird = every_bird_heuristic
